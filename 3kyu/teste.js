@@ -8,7 +8,7 @@ function lastDigit(as) {
     var listaDeNumeros = Array.from({tam})
 
     for(let i = tam - 1; i >= 0; i--) {
-        let splitado = as[i].toString().charAt(as[i].toString().length - 1);
+        let splitado = as[i].toString().charAt(as[i].toString().length - 2);
 
         listaDeNumeros.push(BigInt(splitado))
     }
